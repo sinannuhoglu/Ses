@@ -7,10 +7,10 @@
 
  Bu teknik, dijital ses işlemenin temel prensiplerinden biri olan Fourier teorisine dayanmaktadır. Fourier teorisi, herhangi bir sinyalin farklı frekansta sinüs ve kosinüs dalgalarının toplamı olarak ifade edilebileceğini belirtir.
 
- - SES SENTEZİ:
+ - **SES SENTEZİ:**
  Bu projede, dalga biçimi sentezi yöntemlerinden biri olan "Additive Synthesis" (Toplamsal Ses Sentezi) kullanılmıştır. Toplamsal sentez, farklı frekans ve genliklere sahip bir dizi sinüs dalgasının toplanması ile sesin oluşturulduğu bir yöntemdir. Bu projede, her bir nota için belirli bir frekansa sahip bir sinüs dalgası oluşturulmuş ve bu sinüs dalgaları toplanarak melodiyi oluşturmuştur.
  
- - FİZİKSEL MODEL:
+ - **FİZİKSEL MODEL:**
  Fiziksel modellemeye gelince, bu projede belirgin bir fiziksel modelleme yöntemi kullanılmamıştır. Fiziksel modelleme, genellikle belirli bir müzik aletinin veya ses olayının fiziksel özelliklerini ve davranışlarını simüle etmek için kullanılır. Bu projede ise sinüs dalgalarının frekansları doğrudan belirlenmiş nota frekanslarından alınmıştır ve her bir nota belirli bir süre boyunca çalınmıştır. Dolayısıyla, bu projede belirgin bir fiziksel modelleme yöntemi kullanılmamıştır. Ancak, genel anlamda ses dalgalarının fiziksel özellikleri ve sesin nasıl üretildiği ve iletilmesiyle ilgili temel prensipler bu projede uygulanmıştır.
  
  Özetlemek gerekirse, bu projede "Additive Synthesis" kullanılmış, ancak belirgin bir fiziksel modelleme yöntemi kullanılmamıştır. Bunun yerine, ses dalgalarının temel fiziksel prensipleri ve sinüs dalgaları kullanılarak sesin nasıl üretileceği ile ilgili temel prensipler uygulanmıştır.
