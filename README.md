@@ -20,11 +20,11 @@
 
  a. Numpy:
  Numpy (Numerical Python), geniş bir matematiksel hesaplama araçlarına sahip olan bir Python kütüphanesidir. Numpy, çok boyutlu dizileri, matrisleri ve bu veri yapıları üzerinde çalışmak için gelişmiş matematiksel ve mantıksal işlemleri destekler. Bu projede, Numpy'nin çeşitli özelliklerini kullanıyoruz. İşte bazıları:
-   np.linspace: Belirtilen başlangıç ve bitiş noktaları arasında eşit aralıklı sayılar oluşturur. Bu, sinüs dalgası oluştururken zaman serisi oluşturmak için kullanılır.
-   np.sin: Her bir öğenin sinüsünü hesaplar. Sinüs dalgası oluşturmak için kullanılır.
-   np.append: İki dizi veya iki öğeyi birleştirir. Melodinin oluşturulmasında, her nota
+  * np.linspace: Belirtilen başlangıç ve bitiş noktaları arasında eşit aralıklı sayılar oluşturur. Bu, sinüs dalgası oluştururken zaman serisi oluşturmak için kullanılır.
+  * np.sin: Her bir öğenin sinüsünü hesaplar. Sinüs dalgası oluşturmak için kullanılır.
+  * np.append: İki dizi veya iki öğeyi birleştirir. Melodinin oluşturulmasında, her nota
 için oluşturulan ses dalgaları bir araya getirilir.
-   np.max, np.abs: Maksimum ve mutlak değer işlemleri için kullanılır. Ses dalgasını
+  * np.max, np.abs: Maksimum ve mutlak değer işlemleri için kullanılır. Ses dalgasını
 normalleştirmek için kullanılır.
 
  b. Sounddevice:
@@ -39,18 +39,18 @@ normalleştirmek için kullanılır.
  B. Örnekleme Hızının Tanımlanması: Örnekleme hızı (sample rate), sesin saniyede kaç kez örneklendiğini belirler. Genelde ses dosyaları için kullanılan standart bir örnekleme hızı olan 44100 Hz kullanılmıştır.
  
  C. Nota Frekanslarının Sözlüğünün Oluşturulması: Nota adları ve frekansları arasındaki ilişkiyi belirleyen bir Python sözlüğü oluşturulmuştur. Bu sözlük, kullanıcının gireceği notaların frekanslarını bulmak için kullanılır.
-   'A', 'B', 'C', 'D', 'E', 'F', ve 'G': Müzikal notaları temsil eder.  'A': La notasını
-    'B': Si notasını
-    'C': Do notasını
-    'D': Re notasını 
-    'E': Mi notasını 
-    'F': Fa notasını 
-    'G': Sol notasını
-  Rakamlar (örneğin 4, 5, 6): Oktavı belirtir. Büyüdükçe, sesin frekansı da iki katına çıkar. Örneğin, A4 notasının frekansı 440 Hz'dir, A5'in frekansı ise 880 Hz'dir.
-  '#' (diyez işareti): Bir notanın yarım ton yukarısını ifade eder. Örneğin, 'A#4' A4 notusunun yarım ton yukarısıdır ve frekansı A4'ten daha yüksektir.
-  'b' (bemol işareti, burada görünmüyor ancak genel müzik notasyonunda kullanılır): Bir notanın yarım ton aşağısını ifade eder.
+  * 'A', 'B', 'C', 'D', 'E', 'F', ve 'G': Müzikal notaları temsil eder.  'A': La notasını
+   * 'B': Si notasını
+   * 'C': Do notasını
+   * 'D': Re notasını 
+   * 'E': Mi notasını 
+   * 'F': Fa notasını 
+   * 'G': Sol notasını
+ * Rakamlar (örneğin 4, 5, 6): Oktavı belirtir. Büyüdükçe, sesin frekansı da iki katına çıkar. Örneğin, A4 notasının frekansı 440 Hz'dir, A5'in frekansı ise 880 Hz'dir.
+ * '#' (diyez işareti): Bir notanın yarım ton yukarısını ifade eder. Örneğin, 'A#4' A4 notusunun yarım ton yukarısıdır ve frekansı A4'ten daha yüksektir.
+ * 'b' (bemol işareti, burada görünmüyor ancak genel müzik notasyonunda kullanılır): Bir notanın yarım ton aşağısını ifade eder.
  
-Bu etiketler, batı müziği notalarını temsil eder. Her bir harf, bir müzik notasını temsil eder ve sonrasında gelen sayılar ve semboller, notanın hangi oktavda olduğunu ve hangi varyasyonunu belirtir. farklı notaların ve tonların belirli frekanslara karşılık geldiği bir sistem oluşturur. Bu proje özelinde, kullanıcıdan alınan notaların frekans değerlerini belirlemek ve bu frekanslarla ses dalgaları oluşturmak için kullanılırlar.
+ Bu etiketler, batı müziği notalarını temsil eder. Her bir harf, bir müzik notasını temsil eder ve sonrasında gelen sayılar ve semboller, notanın hangi oktavda olduğunu ve hangi varyasyonunu belirtir. farklı notaların ve tonların belirli frekanslara karşılık geldiği bir sistem oluşturur. Bu proje özelinde, kullanıcıdan alınan notaların frekans değerlerini belirlemek ve bu frekanslarla ses dalgaları oluşturmak için kullanılırlar.
 
  D. Kullanıcıdan Nota ve Süre Girişinin Alınması: Kullanıcının çalmak istediği notalar ve bu notaların süreleri, kullanıcıdan alınır ve uygun veri yapılarına dönüştürülür.
 
