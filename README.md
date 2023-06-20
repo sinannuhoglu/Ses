@@ -40,13 +40,13 @@
   
   **3. Nota Frekanslarının Sözlüğünün Oluşturulması:** Nota adları ve frekansları arasındaki ilişkiyi belirleyen bir Python sözlüğü oluşturulmuştur. Bu sözlük, kullanıcının gireceği notaların frekanslarını bulmak için kullanılır.
    * 'A', 'B', 'C', 'D', 'E', 'F', ve 'G': Müzikal notaları temsil eder.
-    - 'A': La notasını 
-    - 'B': Si notasını
-    - 'C': Do notasını
-    - 'D': Re notasını 
-    - 'E': Mi notasını 
-    - 'F': Fa notasını 
-    - 'G': Sol notasını
+     - 'A': La notasını 
+     - 'B': Si notasını
+     - 'C': Do notasını
+     - 'D': Re notasını 
+     - 'E': Mi notasını 
+     - 'F': Fa notasını 
+     - 'G': Sol notasını
   * Rakamlar (örneğin 4, 5, 6): Oktavı belirtir. Büyüdükçe, sesin frekansı da iki katına çıkar. Örneğin, A4 notasının frekansı 440 Hz'dir, A5'in frekansı ise 880 Hz'dir.
   * '#' (diyez işareti): Bir notanın yarım ton yukarısını ifade eder. Örneğin, 'A#4' A4 notusunun yarım ton yukarısıdır ve frekansı A4'ten daha yüksektir.
   * 'b' (bemol işareti, burada görünmüyor ancak genel müzik notasyonunda kullanılır): Bir notanın yarım ton aşağısını ifade eder.
